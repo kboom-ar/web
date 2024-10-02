@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kboom - Arte Urbano y Tecnología</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            background: linear-gradient(to bottom, #000033, #003300); /* Degradado de azul oscuro a verde oscuro */
+            background-size: cover; /* Asegura que el degradado cubra toda la pantalla */
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #ffffff; /* Texto blanco para contraste */
+        }
+
+        header {
+            text-align: center;
+            width: 100%; /* Aseguramos que ocupe todo el ancho */
+            background: linear-gradient(to bottom, #330033, #660066); /* Degradado de morado oscuro */
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .container {
+            text-align: center;
+            width: 100%; /* Aseguramos que ocupe todo el ancho */
+            margin-top: 20px; /* Separación del header */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .process {
+            margin-top: 30px;
+            background: #ffffff; /* Fondo blanco para el área de proceso */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 90%; /* Ajuste para que sea responsivo */
+        }
+
+        .process h2 {
+            font-size: 2em;
+            color: #330033; /* Morado oscuro */
+        }
+
+        .process ol {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .process li {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #f3e5f5; /* Fondo claro morado */
+            border-left: 5px solid #660066; /* Línea morado */
+            color: #000; /* Color de texto negro para mejorar legibilidad */
+        }
+
+        .cta {
+            margin-top: 30px;
+            padding: 15px;
+            background: linear-gradient(to right, #330033, #660066); /* Degradado de morado oscuro */
+            color: white;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 1.5em;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .cta:hover {
+            background: linear-gradient(to right, #290029, #550055); /* Degradado más oscuro en hover */
+        }
+
+        footer {
+            margin-top: auto; /* Asegura que el footer quede en la parte inferior */
+            padding: 10px;
+            background-color: #330033; /* Fondo oscuro */
+            color: white;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¡Descubre Kboom!</h1>
+        <p>Transforma el arte urbano con tecnología avanzada.</p>
+    </header>
+    <div class="container">
+        <img src="img/background.jpg" alt="Imagen de Kboom"> <!-- Ruta actualizada -->
+    </div>
+    <div class="process">
+        <h2>¿Cómo Funciona Kboom?</h2>
+        <ol>
+            <li><strong>Captura o subida de imagen del mural:</strong> Sube la imagen de tu mural a nuestra plataforma.</li>
+            <li><strong>Video generado por IA:</strong> Disfruta de un video interactivo que amplifica la creatividad de tu mural.</li>
+            <li><strong>Filtro de realidad aumentada:</strong> Interactúa con tu mural en un entorno AR innovador.</li>
+            <li><strong>Publicación en portafolio digital:</strong> Ubica tu obra en un portafolio digital para que todos la aprecien.</li>
+        </ol>
+    </div>
+    <div class="cta">
+        <p>¡Únete a la Revolución del Arte Urbano!</p>
+    </div>
+    <footer>
+        <p>Kboom © 2024. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
